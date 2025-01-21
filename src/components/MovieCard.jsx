@@ -6,7 +6,7 @@ function MovieCard({title, id}) {
     <article>
         <h2>{title}</h2>
         <p>
-          <Link to={`/movie/${id}`}>View Movie</Link>
+          <Link to={`/movie/${id}`}>View Info</Link>
         </p>
     </article>
   );
